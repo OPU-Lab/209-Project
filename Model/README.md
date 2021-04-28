@@ -1,4 +1,4 @@
-**Detailed documentation about the dataflow for convolution on the accelerator will be released soon!**
+**Detailed documentation about the dataflow for convolution on the accelerator (check [code](https://github.com/OPU-Lab/209-Project/blob/main/Model/src/conv_hw.py#L398) here) will be released soon!**
 
 This project can generate software reference files, FPGA simulation files, and on-board test files for OPU.
 

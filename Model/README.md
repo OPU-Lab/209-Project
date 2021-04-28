@@ -1,9 +1,9 @@
-**Detailed documentation about the dataflow for convolution on the accelerator will be released soon.**
+**Detailed documentation about the dataflow for convolution on the accelerator will be released soon!**
 
-# Introduction
+### Introduction
 This project can generate software reference files, FPGA simulation files, and on-board test files for OPU.
 
-# Code Hierarchy
+### Code Hierarchy
 
 ```
 opu_ref

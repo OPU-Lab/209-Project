@@ -4,7 +4,7 @@ This script provides reference input/output for 1st layer of ResNet20 in 8-bit f
 import numpy as np
 
 # wl=8, fl: ifmap=5, ofmap=4, weight=7
-ifmap = np.load('conv2d_input_fl5.npy')
+ifmap = np.load('conv2d_input_wl8_fl5.npy')
 ofmap = np.load('conv2d_output_wl8_fl4.npy')
 weight = np.load('weight_wl8_fl7.npy')
 

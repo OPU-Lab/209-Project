@@ -1,4 +1,4 @@
-Define the forward pass of a Basciblock as follows, where (conv1, conv2, bn1, bn2, shortcut) differs from block to block.
+Define the forward pass of a Basicblock as follows, where (conv1, conv2, bn1, bn2, shortcut) differs from block to block.
 ```
 def forward(self, x):
     out = relu(bn1(conv1(x)))

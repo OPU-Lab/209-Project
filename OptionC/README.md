@@ -8,11 +8,13 @@ In option C, you will
 ## Background
 
 A PE consists of a bunch of parallel multipliers followed by adders for reduction.
+
 Let's consider implement the PE with FPGA.
 Assume we only use DSP Macros for multipliers. 
 One DSP48E1 is configured as (A+D)xB+C, where A, B, C, D are 25, 18, 48, 25 bits and output is 48 bits.
 For simplicity, if we set D and C to zeros, it performs a 25-bit x 18-bit multiplication. 
 For low-precision data (e.g., 8-bit, 4-bit), one DSP can be decomposed into low-precision multipliers.
+
 For example, we can use A for 2 int8 and B for 1 int8, where B is shared between the two at A.
 Or we can use A for 4 int4 and B for 1 int3, where B is shared between the four at A.
 As such, we can make full use of arithmetic resources on FPGA.

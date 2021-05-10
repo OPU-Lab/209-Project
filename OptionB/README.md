@@ -6,7 +6,7 @@ In option B, you will
     * 4-bit intermediate feature maps, 4-bit weight, and 8-bit bias with numpy
 * simulate ResNet20 model    
 
-You may assume the capacity of the on-chip feature map buffer is 40(T<sup>h</sup>) × 40(T<sup>w</sup>) × 64(T<sup>c</sup>) elements.
+You may assume the capacity of the on-chip feature map buffer is 40(T<sub>h</sub>) × 40(T<sub>w</sub>) × 64(T<sub>c</sub>) elements.
 
 
 ## Provided Data and Files

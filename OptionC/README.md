@@ -23,7 +23,8 @@ The above two example for decomposition have been realized at [https://github.co
 ## Provided Data and Files
 Under rtl directory, you can find
 * arithmetic_unit.v: example decomposed DSP in Verilog HDL 
-* dsp.xcix: a Xilinx IP core for DSP48E1. You are welcome to try with Xilinx toolchain.
+* dsp_mac.xcix: a Xilinx IP core for DSP48E1. You are welcome to try with Xilinx toolchain.
+* dsp_mac.tcl: tcl script that adds IP core to Vivado project
 
 Under data directory, you can find
 * conv2d_input.npy: input tensor for the 1st conv2d in ResNet (full precision)
